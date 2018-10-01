@@ -98,8 +98,8 @@ if(get_theme_mod('product_lightbox','default') == 'disabled'){
     );
 
     if ( has_post_thumbnail() ) {
-      $html  = '<div data-thumb="' . get_the_post_thumbnail_url( $post->ID, 'shop_thumbnail' ) . '" class="first slide woocommerce-product-gallery__image"><a href="' . esc_url( $full_size_image[0] ) . '">';
-      $html .= get_the_post_thumbnail( $post->ID, 'shop_single', $attributes );
+      $html  = '<div data-thumb="' . get_the_post_thumbnail_url( $post->ID, 'product-image' ) . '" class="first slide woocommerce-product-gallery__image"><a href="' . esc_url( $full_size_image[0] ) . '">'; //Изменено студией Web Style Production 24 (https://wsp24.ru)
+      $html .= get_the_post_thumbnail( $post->ID, 'product-image', $attributes ); //Изменено студией Web Style Production 24 (https://wsp24.ru)
       $html .= '</a></div>';
     } else {
       $html  = '<div class="woocommerce-product-gallery__image--placeholder">';

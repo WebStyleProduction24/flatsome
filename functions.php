@@ -235,4 +235,8 @@ function my_wc_order_is_editable($res, $order) {
  */
  
  
- 
+ /**
+    Дополнения от студии Web Style Production 24 (https://wsp24.ru)
+ **/
+
+    add_image_size( 'product-image', 500, 500, true ); // регистрируем новый размер изображений
