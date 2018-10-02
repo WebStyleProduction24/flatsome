@@ -17,7 +17,7 @@ or in the style.css of a Child Theme.
 
 .prdctfltr_add_scroll {display:none;}
 
-	.prdctfltr_widget_title:after{
+.prdctfltr_widget_title:after{
 	
 	font-family: 'fl-icons' !important;
     speak: none !important;
@@ -30,26 +30,26 @@ or in the style.css of a Child Theme.
     text-transform: none !important;
     position: relative;
     line-height: 1.2;
-	content: "\f107";
-	}
-	.prdctfltr_widget_title{
-    border: 2px #7A9D3E solid;
-padding:6px;
-width: 100%;
+    content: "\f107";
 }
-	.prdctfltr_widget_title:hover{
-text-decoration: italic;
+.prdctfltr_widget_title{
+    border: 2px #7A9D3E solid;
+    padding:6px;
+    width: 100%;
+}
+.prdctfltr_widget_title:hover{
+    text-decoration: italic;
 }
 .prdctfltr_advanced{
-display: none !important;
+    display: none !important;
 }
 .prdctfltr_price .prdctfltr_add_scroll {display:block !important;}
 
 #woocommerce_product_categories-2 ul li {
-border-bottom: 2px #7A9D3E solid;
+    border-bottom: 2px #7A9D3E solid;
 }
 #woocommerce_product_categories-2 ul li:hover {
-background: #f0f0f0;
+    background: #f0f0f0;
 }
 
 .attribute_link {
@@ -62,4 +62,17 @@ background: #f0f0f0;
 .attribute_link:hover {
     color: #c5a726;
     text-decoration: none;
+}
+
+/***************
+Дополнительные стили от стдуии Web Style Production 24 (https/://wsp24.ru)
+***************/
+
+.border-product-calculator {
+    border: 2px solid #444;
+    width: 75%;
+    padding: 10px;
+}
+.sku_wrapper {
+    font-size: .8em;
 }
