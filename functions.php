@@ -260,7 +260,7 @@ function my_wc_order_is_editable($res, $order) {
 
     //Добавляем хуки
 
-    add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_border_open',  4 ); // Открытие div div с рамкой вокруг калькалятора продукта
+    add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_border_open',  6 ); // Открытие div div с рамкой вокруг калькалятора продукта
     add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_border_close', 31 ); //Закрытие div с рамкой вокруг калькалятора продукта
     add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_sku', 9 ); //Вывод артикула товара
 

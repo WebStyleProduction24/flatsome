@@ -68,11 +68,61 @@ or in the style.css of a Child Theme.
 Дополнительные стили от стдуии Web Style Production 24 (https/://wsp24.ru)
 ***************/
 
+#price_calculator {
+    width: 75%!important;
+}
 .border-product-calculator {
     border: 2px solid #444;
-    width: 75%;
-    padding: 10px;
+    width: 65%;
+    padding-top: 5px;
 }
 .sku_wrapper {
     font-size: .8em;
+}
+input[type=number]::-webkit-inner-spin-button {  
+ opacity: 1;
+ position: relative;
+ left: 5px;
+}
+
+#price_calculator input {
+    width: 100px!important;
+    position: relative;
+}
+.single_add_to_cart_button {
+    width: 50%;
+}
+.total-price {
+    background-color: #7a9d3e;
+    color: #111;
+    height: 50px;
+    display: table;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.total-price > span {
+    display: table-cell;
+    vertical-align: middle;
+    height: inherit;
+}
+input#area_needed {
+    border-radius: 0;
+    background: no-repeat;
+    border-color: #222;
+    color: #222 !important;
+}
+#price_calculator input {
+    text-align: left!important;
+}
+#price_calculator td {
+    vertical-align: middle!important;
+}
+button.single_add_to_cart_button.button.alt {
+    color: #222;
+    font-weight: bold;
+}
+button.single_add_to_cart_button.button.alt:hover {
+    color: #fff;
 }
